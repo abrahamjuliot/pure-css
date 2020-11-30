@@ -1,0 +1,36 @@
+input[type="radio"][id*="modal"] {
+  display: none;
+}
+.modal-overlay,
+[for^="open-modal"],
+[for^="close-modal"] {
+  cursor: pointer;
+}
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff;
+  border: 1px solid;
+  margin: 100px auto;
+  padding: 20px 30px;
+  max-width: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  cursor: text;
+}
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  font-size: 30px;
+}
