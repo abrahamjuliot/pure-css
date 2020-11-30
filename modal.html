@@ -1,0 +1,25 @@
+<div>
+  <style>
+    [name="modal-1"]:checked~.modal-overlay {
+      visibility: visible;
+    }
+
+    [name="modal-1"]:not(:checked)~.modal-overlay {
+      visibility: hidden;
+    }
+  </style>
+  <!-- Modal Open -->
+  <input id="open-modal-1" name="modal-1" type="radio">
+  <label for="open-modal-1" onclick="">[open modal-1]</label>
+  <!-- Modal Overlay/Modal Close -->
+  <label for="close-modal-1" class="modal-overlay" onclick="">
+    <!-- Modal Content -->
+    <label for="open-modal-1" class="modal-content">
+      <!-- Close -->
+      <input id="close-modal-1" name="modal-1" type="radio">
+      <label for="close-modal-1" class="close-btn" onclick="">×</label>
+      <!-- Content -->
+      <div>modal-1 Content</div>
+    </label>
+  </label>
+</div>
