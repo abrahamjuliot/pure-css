@@ -6,3 +6,4 @@ pure css ui components
 - [ ] accordion
 - [ ] lightbox
 - [ ] profile card
+- [ ] switch
