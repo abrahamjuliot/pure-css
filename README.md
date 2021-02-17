@@ -8,3 +8,4 @@ pure css ui components
 - [ ] profile card
 - [ ] switch
 - [ ] icons
+- [ ] progress bar
