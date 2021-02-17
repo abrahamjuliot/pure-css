@@ -7,3 +7,4 @@ pure css ui components
 - [ ] lightbox
 - [ ] profile card
 - [ ] switch
+- [ ] icons
